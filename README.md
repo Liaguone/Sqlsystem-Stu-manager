@@ -3,6 +3,22 @@
 改良的下面师傅的代码
 
 - [student-management-system](https://github.com/ningzichun/student-management-system)
+  功能如图
+![image](https://github.com/Liaguone/Sqlsystem-Stu-manager/assets/142466110/bf342796-29fd-43ab-bb90-00578f30d517)
+下拉式菜单页面
+![image](https://github.com/Liaguone/Sqlsystem-Stu-manager/assets/142466110/b5f201db-d167-411b-8596-89717a165e3c)
+美化新增学生页面
+![image](https://github.com/Liaguone/Sqlsystem-Stu-manager/assets/142466110/83d2d253-fbd7-44b7-af2c-f7b3d48b880a)
+院系管理
+![image](https://github.com/Liaguone/Sqlsystem-Stu-manager/assets/142466110/21664b57-801f-4e78-a9bc-7313a4887a9d)
+
+系统管理页面
+
+![image](https://github.com/Liaguone/Sqlsystem-Stu-manager/assets/142466110/991bf07d-ff6f-41b4-84be-273253a79324)
+
+剩下的学生系统页面
+![image](https://github.com/Liaguone/Sqlsystem-Stu-manager/assets/142466110/da9e3f3f-1bf2-4194-a26b-96bec8e35da5)
+
 
 解压得文件夹sqlsystem,将根目录放到phpstudy里面(安装建站自己搜教程噢)
 
@@ -113,6 +129,14 @@ CREATE TABLE `user_student` (
 INSERT INTO `user_admin` (`adminID`, `adminName`, `pwd`) VALUES
 ('admin', 'admin', '21232f297a57a5a743894a0e4a801fc3');
 ```
+学院增加(没有添加增加学院的功能)
+```sql
+INSERT INTO `department` (`did`, `dname`, `dadd`, `dmng`, `dtel`) VALUES
+('01', '电子信息学院', '中心公教楼106d', '刘德华', '13310001100'),
+('02', '智能制造学院', '行知楼3301d', '刘德华', '13929298269'),
+('03', '人文学院', '明知楼3301d', '刘德华', '13929298269'),
+('04', '设计学院', '名苑楼3301d', '刘德华', '13929298269'),
+('05', '马克思主义学院', '图灵科技楼201d', '刘德华', '13727524159');
 
 剩下的功能如图
 
